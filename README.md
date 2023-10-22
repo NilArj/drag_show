@@ -3,8 +3,9 @@
 ## Table of Contents
 + [Project Overview](#Project-overview)
 + [Technologies Used](#Technologies-Used)
-+ [Usage](#Usage)
++ [Project Problem](#Project-Problem)
 + [Project Walkthrough](#Project-Walkthrough)
++ [Project Insights](#Project-Insights)
 + [Screenshots](#Screenshots)
 + [Source](#Source)
 
@@ -23,11 +24,13 @@ An exciting data science project focused on "La Más Draga," a Mexican version o
    + BeautifulSoup - For data extraction.
 
 
-
 ## Usage
 1. Clone this repository:
    ```python
    git clone https://github.com/your-username/la-mas-draga-ds.git 
+
+## Project Problem
+The problem addressed in this project is creation of a model to predict the success of contestants in "La Más Draga" based on their performance and characteristics.
 
 ## Project Walkthrough
 1. Import the necessary libraries
@@ -39,8 +42,10 @@ An exciting data science project focused on "La Más Draga," a Mexican version o
    - Logistic Regression Model
    - Random Forest Classification Model
    - Decision Tree Classification Model
-7. Model Evaluation: The models were evaluated using classification reports to determine the most suitable model for shows like "La Más Draga."
 
+
+## Project Insights
+Model Evaluation: The models were evaluated using classification reports to determine the most suitable model for shows like "La Más Draga." According to the evaluation, the Decision Tree Classification model was found to be the most suitable for predicting contestant success.
 
 ## Screenshots
 <div style="display: flex; flex-direction: row;">
