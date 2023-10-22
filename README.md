@@ -3,6 +3,7 @@
 ## Table of Contents
 + [Project Overview](#Project-overview)
 + [Technologies Used](#Technologies-Used)
++ [Usage](#Usage)
 + [Project Problem](#Project-Problem)
 + [Project Walkthrough](#Project-Walkthrough)
 + [Project Insights](#Project-Insights)
