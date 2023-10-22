@@ -45,7 +45,8 @@ The problem addressed in this project is creation of a model to predict the succ
 
 
 ## Project Insights
-Model Evaluation: The models were evaluated using classification reports to determine the most suitable model for shows like "La Más Draga." According to the evaluation, the Decision Tree Classification model was found to be the most suitable for predicting contestant success.
+- Model Evaluation: The models were evaluated using classification reports to determine the most suitable model for shows like "La Más Draga." According to the evaluation, the Decision Tree Classification model was found to be the most suitable for predicting contestant success.
+- It's important to recognize that competitions of this nature are intricate and involve subjective evaluation by judges
 
 ## Screenshots
 <div style="display: flex; flex-direction: row;">
