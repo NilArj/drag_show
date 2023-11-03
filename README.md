@@ -12,18 +12,17 @@
 
 
 ## Project Overview
-An exciting data science project focused on "La Más Draga," a Mexican version of RuPaul's Drag Race. This project involves web scraping, data extraction, preprocessing, and the creation of machine learning models to predict if contestants could win the competition.
+An exciting data science project focused on "La Más Draga," a Mexican version of RuPaul's Drag Race. This project involves web scraping, data extraction, and SQL analysis. Additionally, machine learning models were created to predict contestants' chances of winning the competition.
 
 ## Technologies Used
 + Python - The programming language used for data analysis.
 + libraries installed
    + NumPy - For numerical operations and array manipulation.
    + Pandas - For data manipulation and analysis.
+   + BeautifulSoup - For data extraction.
    + Seaborn - For creating informative and attractive visualizations.
    + Matplotlib.pyplot - For additional visualization capabilities.
    + Sklearn - For machine learning
-   + BeautifulSoup - For data extraction.
-
 
 ## Usage
 1. Clone this repository:
@@ -31,23 +30,28 @@ An exciting data science project focused on "La Más Draga," a Mexican version o
    git clone https://github.com/your-username/la-mas-draga-ds.git 
 
 ## Project Problem
-The problem addressed in this project is creation of a model to predict the success of contestants in "La Más Draga" based on their performance and characteristics.
+In this project, the goal is to unveil the key factors shared by the top 4 contestants across all seasons of the show.
 
 ## Project Walkthrough
 1. Import the necessary libraries
 2. Data Extraction: Web scraping was used to gather information and tables from two different websites.
 3. Data Transformation: Data transformation steps included converting data types, cleaning, and merging tables to create both datasets.
 4. Database Integration: The cleaned datasets were loaded into a MySQL database for efficient storage and retrieval.
-5. Data Preprocessing: Preparing the data for machine learning.
-6. Machine Learning Models: Three machine learning models were created to predict if contestants could win the competition based on the available information:
+5. SQL Analysis: Analyze the top four contestants from all seasons to identify commonalities and insights.
+6. Aditionally: Machine Learning Models: Three machine learning models were created to predict if contestants could win the competition based on the available information:
    - Logistic Regression Model
    - Random Forest Classification Model
    - Decision Tree Classification Model
 
 
 ## Project Insights
-- Model Evaluation: The models were evaluated using classification reports to determine the most suitable model for shows like "La Más Draga." According to the evaluation, the Decision Tree Classification model was found to be the most suitable for predicting contestant success.
-- It's important to recognize that competitions of this nature are intricate and involve subjective evaluation by judges
+1. The SQL analysis revealed the following insights:
+   - Participants who aimed for at least two wins during the competition had a higher chance of making it to the top four.
+   - To remain competitive, contestants should maintain an average score of at least 13.38.
+   - The majority of the top four contestants are predominantly from Guadalajara and Monterrey.
+   - The typical age of top four contestants averages around 29 years old.
+2. Model Evaluation: The models were evaluated using classification reports to determine the most suitable model for shows like "La Más Draga." According to the evaluation, the Decision Tree Classification model was found to be the most suitable for predicting contestant success.
+3. It's important to recognize that competitions of this nature are intricate and involve subjective evaluation by judges
 
 ## Screenshots
 <div style="display: flex; flex-direction: row;">
